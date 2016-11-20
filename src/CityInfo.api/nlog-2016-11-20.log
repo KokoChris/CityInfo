@@ -1,0 +1,616 @@
+2016-11-20 10:52:19.9252|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 10:52:19.9252|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:9090/  0
+2016-11-20 10:52:20.0442|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 161.8638ms 200 
+2016-11-20 10:52:20.3812|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 522.0219ms 404 text/plain
+2016-11-20 10:52:22.7764|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/8/pointsofinterest application/json 
+2016-11-20 10:52:23.0454|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) with arguments (8) - ModelState is Valid
+2016-11-20 10:52:23.0454|INFO|CityInfo.api.Controllers.PointsOfInterestController|City with id 8 wasn't found when accessing points of interest
+2016-11-20 10:52:23.0694|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2016-11-20 10:52:23.0824|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) in 205.9913ms
+2016-11-20 10:52:23.0934|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 332.8618ms 404 text/plain
+2016-11-20 10:53:37.9157|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/8/pointsofinterest application/json 
+2016-11-20 10:53:37.9237|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) with arguments (8) - ModelState is Valid
+2016-11-20 10:53:37.9237|INFO|CityInfo.api.Controllers.PointsOfInterestController|City with id 8 wasn't found when accessing points of interest
+2016-11-20 10:53:37.9237|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2016-11-20 10:53:37.9367|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) in 15.6553ms
+2016-11-20 10:53:37.9367|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 45.2558ms 404 text/plain
+2016-11-20 10:53:39.2418|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/8/pointsofinterest application/json 
+2016-11-20 10:53:39.2588|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) with arguments (8) - ModelState is Valid
+2016-11-20 10:53:39.2628|INFO|CityInfo.api.Controllers.PointsOfInterestController|City with id 8 wasn't found when accessing points of interest
+2016-11-20 10:53:39.2628|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2016-11-20 10:53:39.2628|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) in 26.1162ms
+2016-11-20 10:53:39.2798|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 39.437ms 404 text/plain
+2016-11-20 10:55:42.3988|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 10:55:42.3988|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/8/pointsofinterest application/json 
+2016-11-20 10:55:43.0238|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 689.2927ms 404 text/plain
+2016-11-20 10:55:43.2878|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) with arguments (8) - ModelState is Valid
+2016-11-20 10:56:06.7712|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) in 23703.326ms
+2016-11-20 10:56:06.7882|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2016-11-20 10:56:06.9402|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL0H4C10QBI2" communication error
+2016-11-20 10:56:06.9532|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL0H4C10QBI2" communication error
+2016-11-20 10:56:06.9532|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 24627.8543ms 500 text/html; charset=utf-8
+2016-11-20 10:56:17.5078|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/8/pointsofinterest application/json 
+2016-11-20 10:56:17.5168|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) with arguments (8) - ModelState is Valid
+2016-11-20 10:56:38.0640|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) in 20549.2542ms
+2016-11-20 10:56:38.0830|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2016-11-20 10:56:38.1310|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 20618.1674ms 500 text/html; charset=utf-8
+2016-11-20 10:58:05.9910|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 10:58:05.9910|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:9090/  0
+2016-11-20 10:58:06.1120|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 150.5441ms 200 
+2016-11-20 10:58:06.4770|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 539.8309ms 404 text/plain
+2016-11-20 10:58:12.3074|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/8/pointsofinterest application/json 
+2016-11-20 10:58:12.5754|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) with arguments (8) - ModelState is Valid
+2016-11-20 10:58:12.6174|FATAL|CityInfo.api.Controllers.PointsOfInterestController|Exception while getting points of interest for city with id 8.
+2016-11-20 10:58:12.6534|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2016-11-20 10:58:12.6804|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) in 268.9598ms
+2016-11-20 10:58:12.6854|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 383.3405ms 500 text/plain; charset=utf-8
+2016-11-20 11:20:05.5455|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 11:20:05.5455|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:9090/  0
+2016-11-20 11:20:05.6995|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 194.7761ms 200 
+2016-11-20 11:20:06.2515|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 783.7866ms 404 text/plain
+2016-11-20 11:20:12.0439|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:9090/api/cities/8/pointsofinterest/1 application/json 59
+2016-11-20 11:20:12.3639|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.api) with arguments (8, 1) - ModelState is Valid
+2016-11-20 11:20:12.3859|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2016-11-20 11:20:12.4009|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.api) in 240.7712ms
+2016-11-20 11:20:12.4119|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 368.761ms 404 text/plain
+2016-11-20 11:20:19.7883|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:9090/api/cities/2/pointsofinterest/1 application/json 59
+2016-11-20 11:20:19.7883|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.api) with arguments (2, 1) - ModelState is Valid
+2016-11-20 11:20:19.8013|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2016-11-20 11:20:19.8013|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.api) in 12.2215ms
+2016-11-20 11:20:19.8013|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 24.3665ms 404 text/plain
+2016-11-20 11:20:29.3148|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:9090/api/cities/2/pointsofinterest/1 application/json 59
+2016-11-20 11:20:29.3258|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.api) with arguments (2, 1) - ModelState is Valid
+2016-11-20 11:20:29.3328|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2016-11-20 11:20:29.3328|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.api) in 17.6203ms
+2016-11-20 11:20:29.3328|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 27.0415ms 404 text/plain
+2016-11-20 11:20:34.8802|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/2/pointsofinterest/1 application/json 
+2016-11-20 11:20:34.8902|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.api) with arguments (2, 1) - ModelState is Valid
+2016-11-20 11:20:34.8902|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2016-11-20 11:20:34.9082|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.api) in 18.248ms
+2016-11-20 11:20:34.9082|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 41.4031ms 404 text/plain
+2016-11-20 11:20:41.1425|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/1/pointsofinterest/1 application/json 
+2016-11-20 11:20:41.1425|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.api) with arguments (1, 1) - ModelState is Valid
+2016-11-20 11:20:41.1835|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2016-11-20 11:20:41.4345|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.api) in 288.0275ms
+2016-11-20 11:20:41.4345|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 297.7173ms 200 application/json; charset=utf-8
+2016-11-20 11:20:55.5543|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/1/pointsofinterest/1 application/json 
+2016-11-20 11:20:55.5583|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.api) with arguments (1, 1) - ModelState is Valid
+2016-11-20 11:20:55.5583|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2016-11-20 11:20:55.5583|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.api) in 8.6374ms
+2016-11-20 11:20:55.5583|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 17.4266ms 200 application/json; charset=utf-8
+2016-11-20 11:20:59.4326|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/1 application/json 
+2016-11-20 11:20:59.4326|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.CitiesController.GetCity (CityInfo.api) with arguments (1) - ModelState is Valid
+2016-11-20 11:20:59.4416|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2016-11-20 11:20:59.4696|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.CitiesController.GetCity (CityInfo.api) in 31.7185ms
+2016-11-20 11:20:59.4726|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 41.7713ms 200 application/json; charset=utf-8
+2016-11-20 11:21:05.3629|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/1/pointsofinterest application/json 
+2016-11-20 11:21:05.3689|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) with arguments (1) - ModelState is Valid
+2016-11-20 11:21:05.3689|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2016-11-20 11:21:05.3689|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) in 9.725ms
+2016-11-20 11:21:05.3689|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 18.3362ms 200 application/json; charset=utf-8
+2016-11-20 11:21:12.1453|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:9090/api/cities/1/pointsofinterest/1 application/json 59
+2016-11-20 11:21:12.1453|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.api) with arguments (1, 1) - ModelState is Valid
+2016-11-20 11:21:12.1673|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2016-11-20 11:21:12.1713|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.api) in 22.2818ms
+2016-11-20 11:21:12.1713|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 32.9101ms 204 
+2016-11-20 11:22:33.7050|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:9090/  0
+2016-11-20 11:22:33.7050|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 11:22:33.8360|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 173.017ms 200 
+2016-11-20 11:22:34.2070|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 572.6191ms 404 text/plain
+2016-11-20 11:22:41.9434|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:9090/api/cities/1/pointsofinterest/1 application/json 59
+2016-11-20 11:22:42.2554|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.api) with arguments (1, 1) - ModelState is Valid
+2016-11-20 11:22:42.2844|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2016-11-20 11:22:42.3004|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.api) in 241.2611ms
+2016-11-20 11:22:42.3095|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 367.6647ms 204 
+2016-11-20 11:23:40.3238|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:9090/api/cities/1/pointsofinterest/1 application/json 59
+2016-11-20 11:23:40.3238|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 11:23:40.9458|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 689.2586ms 404 text/plain
+2016-11-20 11:23:41.2038|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.api) with arguments (1, 1) - ModelState is Valid
+2016-11-20 11:23:41.2368|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2016-11-20 11:23:41.2528|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.api) in 261.6179ms
+2016-11-20 11:23:41.2638|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1009.568ms 204 
+2016-11-20 11:33:04.6470|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 11:33:04.6470|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:9090/  0
+2016-11-20 11:33:04.8191|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 222.8951ms 200 
+2016-11-20 11:33:05.3101|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 743.5672ms 404 text/plain
+2016-11-20 11:33:24.4512|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:9090/api/cities/1/pointsofinterest/1 application/json 59
+2016-11-20 11:33:24.5902|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.api) in 29.3659ms
+2016-11-20 11:33:24.6052|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2016-11-20 11:33:24.7672|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 317.6174ms 500 text/html; charset=utf-8
+2016-11-20 11:33:35.8128|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:9090/api/cities/1/pointsofinterest/1 application/json 59
+2016-11-20 11:33:35.8128|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.api) in 0.5545ms
+2016-11-20 11:33:35.8358|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2016-11-20 11:33:35.8588|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 51.935ms 500 text/html; charset=utf-8
+2016-11-20 11:34:30.4820|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:9090/  0
+2016-11-20 11:34:30.4820|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 11:34:30.6090|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 175.2374ms 200 
+2016-11-20 11:34:30.9670|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 558.7495ms 404 text/plain
+2016-11-20 11:34:45.3958|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:9090/api/cities/1/pointsofinterest/1 application/json 59
+2016-11-20 11:34:45.5338|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.api) in 31.1436ms
+2016-11-20 11:34:45.5458|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2016-11-20 11:34:45.7148|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 320.7824ms 500 text/html; charset=utf-8
+2016-11-20 11:34:47.6729|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:9090/api/cities/1/pointsofinterest/1 application/json 59
+2016-11-20 11:34:47.6729|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.api) in 0.6375ms
+2016-11-20 11:34:47.6929|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2016-11-20 11:34:47.7179|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 45.1777ms 500 text/html; charset=utf-8
+2016-11-20 11:35:50.5775|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/1/pointsofinterest/1 application/json 
+2016-11-20 11:35:50.5995|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.api) in 5.4677ms
+2016-11-20 11:35:50.6215|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2016-11-20 11:35:50.6415|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 70.6828ms 500 text/html; charset=utf-8
+2016-11-20 11:36:01.0971|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities application/json 
+2016-11-20 11:36:01.1511|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.CitiesController.GetCities (CityInfo.api) with arguments ((null)) - ModelState is Valid
+2016-11-20 11:36:01.1881|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value System.Collections.Generic.List`1[CityInfo.api.controllers.CityDto].
+2016-11-20 11:36:01.4382|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.CitiesController.GetCities (CityInfo.api) in 336.794ms
+2016-11-20 11:36:01.4422|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 365.3409ms 200 application/json; charset=utf-8
+2016-11-20 11:36:05.4044|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/1 application/json 
+2016-11-20 11:36:05.5334|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.CitiesController.GetCity (CityInfo.api) with arguments (1) - ModelState is Valid
+2016-11-20 11:36:05.5594|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2016-11-20 11:36:05.5774|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.CitiesController.GetCity (CityInfo.api) in 164.0653ms
+2016-11-20 11:36:05.5774|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 191.6757ms 200 application/json; charset=utf-8
+2016-11-20 11:36:10.8567|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/1/pointsofinterest application/json 
+2016-11-20 11:36:10.8747|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) in 10.4086ms
+2016-11-20 11:36:10.8897|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2016-11-20 11:36:10.9177|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 66.5715ms 500 text/html; charset=utf-8
+2016-11-20 11:36:35.8921|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/1/pointsofinterest application/json 
+2016-11-20 11:36:35.9011|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) in 2.1073ms
+2016-11-20 11:36:35.9171|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2016-11-20 11:36:35.9661|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 83.563ms 500 text/html; charset=utf-8
+2016-11-20 11:36:45.9957|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 11:36:45.9957|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:9090/  0
+2016-11-20 11:36:46.1287|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 183.0826ms 200 
+2016-11-20 11:36:46.5007|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 580.0527ms 404 text/plain
+2016-11-20 11:36:54.7182|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/1/pointsofinterest application/json 
+2016-11-20 11:36:54.8512|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) in 29.4358ms
+2016-11-20 11:36:54.8642|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2016-11-20 11:36:55.0082|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 293.7653ms 500 text/html; charset=utf-8
+2016-11-20 11:36:56.1153|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/1/pointsofinterest application/json 
+2016-11-20 11:36:56.1213|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) in 0.962ms
+2016-11-20 11:36:56.1343|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2016-11-20 11:36:56.1553|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 39.7991ms 500 text/html; charset=utf-8
+2016-11-20 11:38:21.2872|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:9090/  0
+2016-11-20 11:38:21.2872|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 11:38:21.4212|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 180.9764ms 200 
+2016-11-20 11:38:21.7802|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 567.1988ms 404 text/plain
+2016-11-20 11:38:23.2183|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/1/pointsofinterest application/json 
+2016-11-20 11:38:23.3733|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) in 32.006ms
+2016-11-20 11:38:23.3883|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2016-11-20 11:38:23.5453|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 328.7816ms 500 text/html; charset=utf-8
+2016-11-20 11:39:01.4445|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 11:39:01.4445|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:9090/  0
+2016-11-20 11:39:01.5775|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 182.5178ms 200 
+2016-11-20 11:39:01.9465|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 578.0779ms 404 text/plain
+2016-11-20 11:39:18.5694|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/1/pointsofinterest application/json 
+2016-11-20 11:39:18.7154|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) in 35.1707ms
+2016-11-20 11:39:18.7304|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2016-11-20 11:39:18.8805|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 312.4554ms 500 text/html; charset=utf-8
+2016-11-20 11:39:20.8336|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/1/pointsofinterest application/json 
+2016-11-20 11:39:20.8416|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) in 0.5869ms
+2016-11-20 11:39:20.8576|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2016-11-20 11:39:20.8846|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 46.8954ms 500 text/html; charset=utf-8
+2016-11-20 11:39:21.6886|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/1/pointsofinterest application/json 
+2016-11-20 11:39:21.6886|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) in 0.491ms
+2016-11-20 11:39:21.7116|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2016-11-20 11:39:21.7456|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 72.5974ms 500 text/html; charset=utf-8
+2016-11-20 11:39:22.3306|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/1/pointsofinterest application/json 
+2016-11-20 11:39:22.3306|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.api) in 0.5743ms
+2016-11-20 11:39:22.3436|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2016-11-20 11:39:22.3626|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 32.6663ms 500 text/html; charset=utf-8
+2016-11-20 11:39:27.5019|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/1 application/json 
+2016-11-20 11:39:27.6640|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.CitiesController.GetCity (CityInfo.api) with arguments (1) - ModelState is Valid
+2016-11-20 11:39:27.7070|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2016-11-20 11:39:27.9720|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.CitiesController.GetCity (CityInfo.api) in 464.6115ms
+2016-11-20 11:39:27.9720|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 472.9428ms 200 application/json; charset=utf-8
+2016-11-20 11:41:01.6393|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:9090/  0
+2016-11-20 11:41:01.6393|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 11:41:01.6393|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/1 application/json 
+2016-11-20 11:41:01.7733|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 183.3313ms 200 
+2016-11-20 11:41:02.2364|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 671.0706ms 404 text/plain
+2016-11-20 11:41:02.5694|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.CitiesController.GetCity (CityInfo.api) with arguments (1) - ModelState is Valid
+2016-11-20 11:41:02.6284|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2016-11-20 11:41:02.9194|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.CitiesController.GetCity (CityInfo.api) in 591.6436ms
+2016-11-20 11:41:02.9194|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1361.4008ms 200 application/json; charset=utf-8
+2016-11-20 11:41:09.6378|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/1/pointsofinterest/1 application/json 
+2016-11-20 11:43:38.5863|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:9090/  0
+2016-11-20 11:43:38.5863|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 11:43:38.7123|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 171.5697ms 200 
+2016-11-20 11:43:39.0993|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 582.2795ms 404 text/plain
+2016-11-20 11:43:41.0464|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/api/cities/1/pointsofinterest/1 application/json 
+2016-11-20 11:44:00.5246|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.api) with arguments (1, 1) - ModelState is Valid
+2016-11-20 11:44:00.5676|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2016-11-20 11:44:00.8346|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.GetPointOfInterest (CityInfo.api) in 19669.8417ms
+2016-11-20 11:44:00.8346|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 19797.8546ms 200 application/json; charset=utf-8
+2016-11-20 11:44:06.1809|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:9090/api/cities/1/pointsofinterest/1 application/json 59
+2016-11-20 11:44:13.3603|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.api.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.api) with arguments (1, 1) - ModelState is Valid
+2016-11-20 11:44:16.9295|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2016-11-20 11:44:16.9295|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.api.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.api) in 10746.639ms
+2016-11-20 11:44:16.9295|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10758.4228ms 204 
+2016-11-20 20:43:22.2285|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2016-11-20 20:43:22.5866|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (65ms) [Parameters=[@p0='?', @p1='?' (Size = 200), @p2='?' (Size = 50), @p3='?', @p4='?' (Size = 200), @p5='?' (Size = 50), @p6='?', @p7='?' (Size = 200), @p8='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Cities] ([Id], [Description], [Name])
+VALUES (@p0, @p1, @p2),
+(@p3, @p4, @p5),
+(@p6, @p7, @p8);
+2016-11-20 20:43:22.6266|ERROR|Microsoft.EntityFrameworkCore.DbContext|An exception occurred in the database while saving changes.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Cannot insert explicit value for identity column in table 'Cities' when IDENTITY_INSERT is set to OFF.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, String executeMethod, IReadOnlyDictionary`2 parameterValues, Boolean closeConnection)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2016-11-20 20:47:08.8995|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2016-11-20 20:47:09.2445|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (66ms) [Parameters=[@p0='?', @p1='?' (Size = 200), @p2='?' (Size = 50), @p3='?', @p4='?' (Size = 200), @p5='?' (Size = 50), @p6='?', @p7='?' (Size = 200), @p8='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Cities] ([Id], [Description], [Name])
+VALUES (@p0, @p1, @p2),
+(@p3, @p4, @p5),
+(@p6, @p7, @p8);
+2016-11-20 20:47:09.2825|ERROR|Microsoft.EntityFrameworkCore.DbContext|An exception occurred in the database while saving changes.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Cannot insert explicit value for identity column in table 'Cities' when IDENTITY_INSERT is set to OFF.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, String executeMethod, IReadOnlyDictionary`2 parameterValues, Boolean closeConnection)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2016-11-20 20:48:09.2290|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2016-11-20 20:48:09.6140|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (72ms) [Parameters=[@p0='?' (Size = 200), @p1='?' (Size = 50), @p2='?' (Size = 200), @p3='?' (Size = 50), @p4='?' (Size = 200), @p5='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @toInsert0 TABLE ([Description] nvarchar(200), [Name] nvarchar(50), [_Position] [int]);
+INSERT INTO @toInsert0
+VALUES (@p0, @p1, 0),
+(@p2, @p3, 1),
+(@p4, @p5, 2);
+
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [Cities] USING @toInsert0 AS i ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Description], [Name])
+VALUES (i.[Description], i.[Name])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [Cities] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+2016-11-20 20:48:10.2740|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 20:48:10.2740|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:9090/  0
+2016-11-20 20:48:10.3610|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 110.7916ms 200 
+2016-11-20 20:48:10.6930|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 469.2841ms 404 text/plain
+2016-11-20 20:50:05.9406|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2016-11-20 20:50:06.3277|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (65ms) [Parameters=[@p0='?' (Size = 200), @p1='?' (Size = 50), @p2='?' (Size = 200), @p3='?' (Size = 50), @p4='?' (Size = 200), @p5='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @toInsert0 TABLE ([Description] nvarchar(200), [Name] nvarchar(50), [_Position] [int]);
+INSERT INTO @toInsert0
+VALUES (@p0, @p1, 0),
+(@p2, @p3, 1),
+(@p4, @p5, 2);
+
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [Cities] USING @toInsert0 AS i ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Description], [Name])
+VALUES (i.[Description], i.[Name])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [Cities] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+2016-11-20 20:50:07.0707|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 20:50:07.0707|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:9090/  0
+2016-11-20 20:50:07.1597|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 116.1064ms 200 
+2016-11-20 20:50:07.4817|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 465.4544ms 404 text/plain
+2016-11-20 20:52:54.1593|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2016-11-20 20:52:54.8973|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 20:52:54.8973|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:9090/  0
+2016-11-20 20:52:54.9833|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 95.4304ms 200 
+2016-11-20 20:52:55.2863|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 424.9597ms 404 text/plain
+2016-11-20 20:53:29.4053|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2016-11-20 20:53:29.7653|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (60ms) [Parameters=[@p0='?' (Size = 200), @p1='?' (Size = 50), @p2='?' (Size = 200), @p3='?' (Size = 50), @p4='?' (Size = 200), @p5='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @toInsert0 TABLE ([Description] nvarchar(200), [Name] nvarchar(50), [_Position] [int]);
+INSERT INTO @toInsert0
+VALUES (@p0, @p1, 0),
+(@p2, @p3, 1),
+(@p4, @p5, 2);
+
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [Cities] USING @toInsert0 AS i ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Description], [Name])
+VALUES (i.[Description], i.[Name])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [Cities] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+2016-11-20 20:53:30.4583|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 20:53:30.4583|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:9090/  0
+2016-11-20 20:53:30.5533|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 105.5588ms 200 
+2016-11-20 20:53:30.8664|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 441.6031ms 404 text/plain
+2016-11-20 20:56:17.3069|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2016-11-20 20:56:18.1189|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 20:56:18.1189|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:9090/  0
+2016-11-20 20:56:18.2069|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 95.3223ms 200 
+2016-11-20 20:56:18.5339|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 451.918ms 404 text/plain
+2016-11-20 20:58:19.5259|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2016-11-20 20:58:20.1799|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:9090/  0
+2016-11-20 20:58:20.1829|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 20:58:20.2739|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 124.7421ms 200 
+2016-11-20 20:58:20.5889|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 469.1233ms 404 text/plain
+2016-11-20 21:03:35.2929|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2016-11-20 21:06:04.1544|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[CityId], [p].[Description], [p].[Name]
+FROM [PointsOfInterest] AS [p]
+2016-11-20 21:06:04.1804|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[CityId], [p].[Description], [p].[Name]
+FROM [PointsOfInterest] AS [p]
+2016-11-20 21:06:04.2114|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[CityId], [p].[Description], [p].[Name]
+FROM [PointsOfInterest] AS [p]
+2016-11-20 21:06:55.0854|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name]
+FROM [Cities] AS [c]
+2016-11-20 21:06:55.1024|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name]
+FROM [Cities] AS [c]
+2016-11-20 21:06:55.1314|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name]
+FROM [Cities] AS [c]
+2016-11-20 21:07:10.6872|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (63ms) [Parameters=[@p0='?' (Size = 200), @p1='?' (Size = 50), @p2='?' (Size = 200), @p3='?' (Size = 50), @p4='?' (Size = 200), @p5='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @toInsert0 TABLE ([Description] nvarchar(200), [Name] nvarchar(50), [_Position] [int]);
+INSERT INTO @toInsert0
+VALUES (@p0, @p1, 0),
+(@p2, @p3, 1),
+(@p4, @p5, 2);
+
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [Cities] USING @toInsert0 AS i ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Description], [Name])
+VALUES (i.[Description], i.[Name])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [Cities] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+2016-11-20 21:15:32.8690|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2016-11-20 21:15:33.6670|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 21:15:33.6670|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:9090/  0
+2016-11-20 21:15:33.7610|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 99.2565ms 200 
+2016-11-20 21:15:34.0870|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 454.6665ms 404 text/plain
+2016-11-20 21:17:10.8476|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2016-11-20 21:17:11.2336|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (60ms) [Parameters=[@p0='?' (Size = 200), @p1='?' (Size = 50), @p2='?' (Size = 200), @p3='?' (Size = 50), @p4='?' (Size = 200), @p5='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @toInsert0 TABLE ([Description] nvarchar(200), [Name] nvarchar(50), [_Position] [int]);
+INSERT INTO @toInsert0
+VALUES (@p0, @p1, 0),
+(@p2, @p3, 1),
+(@p4, @p5, 2);
+
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [Cities] USING @toInsert0 AS i ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Description], [Name])
+VALUES (i.[Description], i.[Name])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [Cities] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+2016-11-20 21:17:11.9576|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:9090/  0
+2016-11-20 21:17:11.9576|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 21:17:12.0516|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 118.799ms 200 
+2016-11-20 21:17:12.3577|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 452.8967ms 404 text/plain
+2016-11-20 21:59:12.5528|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2016-11-20 21:59:12.9118|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (62ms) [Parameters=[@p0='?' (Size = 200), @p1='?' (Size = 50), @p2='?' (Size = 200), @p3='?' (Size = 50), @p4='?' (Size = 200), @p5='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @toInsert0 TABLE ([Description] nvarchar(200), [Name] nvarchar(50), [_Position] [int]);
+INSERT INTO @toInsert0
+VALUES (@p0, @p1, 0),
+(@p2, @p3, 1),
+(@p4, @p5, 2);
+
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [Cities] USING @toInsert0 AS i ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Description], [Name])
+VALUES (i.[Description], i.[Name])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [Cities] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+2016-11-20 21:59:13.5539|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 21:59:13.5539|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:9090/  0
+2016-11-20 21:59:13.6469|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 97.3589ms 200 
+2016-11-20 21:59:14.0159|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 496.118ms 404 text/plain
+2016-11-20 22:01:31.2787|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2016-11-20 22:01:31.6228|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (69ms) [Parameters=[@p0='?' (Size = 200), @p1='?' (Size = 50), @p2='?' (Size = 200), @p3='?' (Size = 50), @p4='?' (Size = 200), @p5='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @toInsert0 TABLE ([Description] nvarchar(200), [Name] nvarchar(50), [_Position] [int]);
+INSERT INTO @toInsert0
+VALUES (@p0, @p1, 0),
+(@p2, @p3, 1),
+(@p4, @p5, 2);
+
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [Cities] USING @toInsert0 AS i ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Description], [Name])
+VALUES (i.[Description], i.[Name])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [Cities] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+2016-11-20 22:01:32.3018|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 22:01:32.3018|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 22:01:32.8068|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 516.4789ms 404 text/plain
+2016-11-20 22:01:32.8068|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 516.474ms 404 text/plain
+2016-11-20 22:14:39.5828|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2016-11-20 22:14:40.1639|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:9090/  0
+2016-11-20 22:14:40.1639|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 22:14:40.2519|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 114.5679ms 200 
+2016-11-20 22:14:49.6124|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2016-11-20 22:14:50.3154|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 22:14:50.3154|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9090/  
+2016-11-20 22:14:50.7665|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 481.5598ms 404 text/plain
+2016-11-20 22:14:50.7665|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 481.5715ms 404 text/plain
+2016-11-20 22:15:39.0162|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cities] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2016-11-20 22:15:39.3422|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (63ms) [Parameters=[@p0='?' (Size = 200), @p1='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Cities] ([Description], [Name])
+VALUES (@p0, @p1);
+SELECT [CityId]
+FROM [Cities]
+WHERE @@ROWCOUNT = 1 AND [CityId] = scope_identity();
+2016-11-20 22:15:39.3743|ERROR|Microsoft.EntityFrameworkCore.DbContext|An exception occurred in the database while saving changes.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid column name 'CityId'.
+Invalid column name 'CityId'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, String executeMethod, IReadOnlyDictionary`2 parameterValues, Boolean closeConnection)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
